@@ -6,7 +6,7 @@ function TodoList(){
     //if have data return storage jobs or return empty array
     const [jobs, setJobs] = useState(() => {
          //get data from storage
-        const storageJobs = JSON.parse(localStorage.getItem('jobs'));
+        const storageJobs = JSON.parse(localStorage.getItem('jobs')) ?? [];
         return storageJobs;
     });
 
