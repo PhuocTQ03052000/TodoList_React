@@ -3,7 +3,7 @@ import React from 'react';
 import { useState } from 'react';
 // import UseStateComponent from './Components/UseStateComputer';
 // import TodoList from './Components/TodoList';
-import Content from './Components/Mounted_Unmounted';
+import Content from './Components/UseEffect_PreviewAvatar';
 function App() {
   const [show, setShow] = useState(false);
   return (
